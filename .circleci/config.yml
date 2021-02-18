@@ -10,4 +10,5 @@ jobs:
       
       - run: yarn install
     
-      - run: yarn test
+      - run: yarn test-pa11y
+
