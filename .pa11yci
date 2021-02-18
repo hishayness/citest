@@ -5,14 +5,16 @@
     "standard": "WCAG2AA",
     "ignore": [
       "notice",
-      "warning",
-      "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
-      "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2"
+      "warning",    
+      "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77"
     ],
     "viewport": {
-      "width": 1000,
-      "height": 1000 
-    }
+      "width": 1200,
+      "height": 1200 
+    },
+    "runners": ["axe"],
+    "actions": [
+    ]
   },
   "urls": [
     "http://localhost:3000/"
