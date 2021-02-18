@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       
-      - run: npm run install
+      - run: npm install
     
       - run: npm run start & sleep 5; npm run test-pa11y
 
